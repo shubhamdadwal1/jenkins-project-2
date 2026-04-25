@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo " hello friend"
+eho " hello friend"
 
 
