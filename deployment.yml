@@ -1,0 +1,20 @@
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: my-kube
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kube-app
+  template:
+    metadata:
+      labels:
+        app: kube-app
+    spec:
+      containers:
+        - name: kube-container
+            image: shubhamdadwal/shubh-kube-jenk-project:latest
+          ports:
+            - containerPort: 80 
+
