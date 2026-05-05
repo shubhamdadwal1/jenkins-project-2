@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: kube-container
-            image: shubhamdadwal/shubh-kube-jenk-project:latest
+          image: shubhamdadwal/shubh-kube-jenk-project:latest
           ports:
             - containerPort: 80 
 
